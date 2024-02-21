@@ -1,0 +1,66 @@
+
+#form{
+    border: 2px solid;
+    border-radius: 50px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+
+}
+.input{
+    padding: 12px 20px;
+    border-radius:5px;
+    border: 1px solid;
+    width: 80%;
+}
+button{
+    padding: 6px 12px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px;
+    width: 90%;
+}
+.sign{
+    margin-right: 80px auto;
+    text-align: center;
+    font-size: 35px;
+    max-width: 600px;
+    position: relative;
+
+}
+.sign::before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.sign::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+    
+
+
+table, th, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 5%;
+    text-align: center;
+    
+    
+
+}
